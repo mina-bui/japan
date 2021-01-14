@@ -1,17 +1,27 @@
 <!doctype html>
-<html lang = "en">
-	<!-- 	author: mina bui
+<html lang="en">
+<!-- 	author: mina bui
 			date: 2020-10-06
 			title: project 1 - country website - destinations
 	-->
+
 <head>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM2Y9F5S02"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-LM2Y9F5S02');
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Your Official Guide to Japan | JapanTours.com</title>
 	<!-- google fonts -->
-	<link href = "https://fonts.googleapis.com/css?family=Raleway" rel = "stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- link to css -->
-	<link rel = "stylesheet" href = "style/style.css">
+	<link rel="stylesheet" href="style/style.css">
 	<!-- favicons -->
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/apple-touch-icon-114x114.png" />
@@ -26,22 +36,23 @@
 	<link rel="icon" type="image/png" href="image/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="image/favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/png" href="image/favicon-128.png" sizes="128x128" />
-	<meta name="application-name" content="&nbsp;"/>
+	<meta name="application-name" content="&nbsp;" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="image/mstile-144x144.png" />
 	<meta name="msapplication-square70x70logo" content="image/mstile-70x70.png" />
 	<meta name="msapplication-square150x150logo" content="image/mstile-150x150.png" />
 	<meta name="msapplication-wide310x150logo" content="image/mstile-310x150.png" />
 	<meta name="msapplication-square310x310logo" content="image/mstile-310x310.png" />
-	
+
 </head>
+
 <body>
-	<div class = "wrapper">	
+	<div class="wrapper">
 		<!-- header -->
-		<header class = "header" id ="myHeader">	
-			<div id = "top">
-				<h1 class = "main-heading"><a class = "header-link" href = "index.html" title = "Home">japantours.com</a></h1>
-				<div class = "btn-menu" title = "Menu">
+		<header class="header" id="myHeader">
+			<div id="top">
+				<h1 class="main-heading"><a class="header-link" href="index.html" title="Home">japantours.com</a></h1>
+				<div class="btn-menu" title="Menu">
 					<div class="container" onclick="mobileMenu(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
@@ -51,131 +62,170 @@
 			</div>
 			<nav>
 				<ul id="nav-ul">
-					<li class = "nav-li"><a class = "nav-a" href = "destinations.html" title = "Destinations">Destinations</a></li>
-					<li class = "nav-li"><a class = "nav-a" href = "things-to-do.html" title = "Things to Do">Things to Do</a></li>
-					<li class = "nav-li"><a class = "nav-a" href = "booking.html" title = "Booking">Booking</a></li>
+					<li class="nav-li"><a class="nav-a" href="destinations.html" title="Destinations">Destinations</a>
+					</li>
+					<li class="nav-li"><a class="nav-a" href="things-to-do.html" title="Things to Do">Things to Do</a>
+					</li>
+					<li class="nav-li"><a class="nav-a" href="booking.html" title="Booking">Booking</a></li>
 				</ul>
-			</nav>		
-		</header>	
-	<!-- main -->
-	<main>
-		<!-- banner -->
-		<div class = "banner">
-			<img 	src = "image/destinations-banner.jpg" 
-					alt = "Hokkaido in the winter. Found at https://pixabay.com/photos/japan-hokkaido-winter-temple-3969911/">
-			<h2 class = "center-align" id = "welcome">Destinations.</h2>
-			<h3 class = "center-align" id = "welcome-bottom">Where will you go?</h3>
-		</div>	
-		<!-- written out site nav -->
-		<section>
-			<article class = "one-col">
-				<p>Home / Destinations</p>
-			</article>
-		</section>
-		<!-- section 1 - intro to destinations -->
-		<section>
-			<div class = "row">
-				<article class = "one-col">
-					<h2 class = "center-align">Regions of Japan</h2>
-					<p>Japan is officially divided into the following eight regions. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
-				</article>
+			</nav>
+		</header>
+		<!-- main -->
+		<main>
+			<!-- banner -->
+			<div class="banner">
+				<img src="image/destinations-banner.jpg"
+					alt="Hokkaido in the winter. Found at https://pixabay.com/photos/japan-hokkaido-winter-temple-3969911/">
+				<h2 class="center-align" id="welcome">Destinations.</h2>
+				<h3 class="center-align" id="welcome-bottom">Where will you go?</h3>
 			</div>
-		</section>
-		<!-- section 2 - regions in japan -->
-		<section>
-				<div class = "row" id = "article-row">
-					<article class = "three-col">
-						<img src = "image/destinations-kinki-kansai.jpg" alt = "Kasuga Taiga temple at night, in Kansai region. Found at https://commons.wikimedia.org/wiki/File:Exterior_of_Kasuga-taisha_at_night._Nara,_Nara_Prefecture,_Kansai_Region,_Japan-2.jpg">
+			<!-- written out site nav -->
+			<section>
+				<article class="one-col">
+					<p>Home / Destinations</p>
+				</article>
+			</section>
+			<!-- section 1 - intro to destinations -->
+			<section>
+				<div class="row">
+					<article class="one-col">
+						<h2 class="center-align">Regions of Japan</h2>
+						<p>Japan is officially divided into the following eight regions. Lorem ipsum dolor sit amet,
+							consectetur adipiscing elit. Phasellus nulla urna, porta ut faucibus ac, posuere vitae
+							turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut finibus ut arcu tincidunt
+							rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor purus faucibus. Vestibulum
+							augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
+					</article>
+				</div>
+			</section>
+			<!-- section 2 - regions in japan -->
+			<section>
+				<div class="row" id="article-row">
+					<article class="three-col">
+						<img src="image/destinations-kinki-kansai.jpg"
+							alt="Kasuga Taiga temple at night, in Kansai region. Found at https://commons.wikimedia.org/wiki/File:Exterior_of_Kasuga-taisha_at_night._Nara,_Nara_Prefecture,_Kansai_Region,_Japan-2.jpg">
 						<br><br>
 						<h3>Kinki/Kansai</h3>
 						<p>
-							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a, dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
-						</p>			
+							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in
+							neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc
+							fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu
+							dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id
+							convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a,
+							dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula
+							eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
+						</p>
 					</article>
-					<article class = "three-col">
-						<img src = "image/destinations-chugoku.jpg" alt = "Okayama Castle, Chugoku region. Found at https://commons.wikimedia.org/wiki/File:Top_of_Okayama_Castle._Okayama,_Okayama_Prefecture,_Ch%C5%ABgoku_region,_Japan.jpg">
+					<article class="three-col">
+						<img src="image/destinations-chugoku.jpg"
+							alt="Okayama Castle, Chugoku region. Found at https://commons.wikimedia.org/wiki/File:Top_of_Okayama_Castle._Okayama,_Okayama_Prefecture,_Ch%C5%ABgoku_region,_Japan.jpg">
 						<br><br>
 						<h3>Chugoku</h3>
 						<p>
-							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a, dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
-						</p>	
-					</article>
-				</div>
-				<div class = "row" id = "article-row-2">
-					<article class = "three-col">
-						<img src = "image/destinations-shikoku.jpg" alt = "Shikoku coast. Found at https://www.pikist.com/free-photo-xhdzy">
-						<br><br>
-						<h3>Shikoku</h3>
-						<p>
-							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a, dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
-						</p>		
-					</article>
-					<article class = "three-col">
-						<img src = "image/destinations-okinawa.jpg" alt = "Mangrove swamp, Iriomote Island, Okinawa. Found at https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg">
-						<br><br>
-						<h3>Kyushu (inclu. Okinawa)</h3>
-						<p>
-							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a, dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
+							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in
+							neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc
+							fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu
+							dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id
+							convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a,
+							dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula
+							eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
 						</p>
 					</article>
 				</div>
-		</section>
-		<!-- back to top link -->
-		<div class = "bottom">
-			<button onclick="topFunction()" id="topBtn" title="Go to top">▲</button>
-			<!--<a href = "#top" class = "back-to-top">^<br>Top</a> -->
-		</div>
-	</main>
-	<!-- footer -->
-	<footer>
-		<div class = "four-col">
-			<h3><a href="index.html">JapanTours.com</a></h3>
-			<p>
-				<a href= "http://www.facebook.com"><img src = "image/social-media/facebook.png" alt = "Facebook icon" class = "social-media-icons"></a>
-				<a href= "http://www.instagram.com"><img src = "image/social-media/instagram.png" alt = "Instagram icon" class = "social-media-icons"></a>
-				<a href= "http://wwww.twitter.com"><img src = "image/social-media/twitter.png" alt = "Twitter icon" class = "social-media-icons"></a>
-				<a href= "http://wwww.youtube.com"><img src = "image/social-media/youtube.png" alt = "Youtube icon" class = "social-media-icons"></a><br>
-				&copy; 2020 <a href="https://bcitwebdeveloper.ca/students/mina-bui/">Mina Bui</a>. <br>
-				For eduational purposes.<br>
-			</p>
-			<p>
-				<a href = "credits.html">Credits</a>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Regions of Japan</h3>
-			<p>
-				<a href="destinations.html">Hokkaido</a> <br>
-				<a href="destinations.html">Tohoku</a> <br>
-				<a href="destinations.html">Kanto</a> <br>
-				<a href="destinations.html">Kansai</a> <br>
-				<a href="destinations.html">Chugoku</a> <br>
-				<a href="destinations.html">Shikoku</a> <br>
-				<a href="destinations.html">Kyushu</a> <br>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Before You Go</h3>
-			<p>
-				<a href="booking.html">Planning</a> <br>
-				<a href="booking.html">Transport</a> <br>
-				<a href="booking.html">Hotels</a> <br>
-				<a href="booking.html">Trip Ideas</a> <br>
-				<a href="booking.html">Tours</a> <br>
-				<a href="booking.html">Etiquette</a> <br>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Contact Us</h3>
-			<address>
-				<a href="https://www.google.com/maps">55 Street, Vancouver BC</a><br>
-				V5K 0A1<br>
-				+1 555-555-5555<br>
-				<a href="mailto:hello@japantours.com">hello@japantours.com</a>
-			</address>
-		</div>
-	</footer>	
+				<div class="row" id="article-row-2">
+					<article class="three-col">
+						<img src="image/destinations-shikoku.jpg"
+							alt="Shikoku coast. Found at https://www.pikist.com/free-photo-xhdzy">
+						<br><br>
+						<h3>Shikoku</h3>
+						<p>
+							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in
+							neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc
+							fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu
+							dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id
+							convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a,
+							dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula
+							eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
+						</p>
+					</article>
+					<article class="three-col">
+						<img src="image/destinations-okinawa.jpg"
+							alt="Mangrove swamp, Iriomote Island, Okinawa. Found at https://commons.wikimedia.org/wiki/File:Mangrove_swamp,_Iriomote_Island,_Okinawa,_Japan.jpg">
+						<br><br>
+						<h3>Kyushu (inclu. Okinawa)</h3>
+						<p>
+							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in
+							neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc
+							fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu
+							dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id
+							convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a,
+							dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula
+							eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
+						</p>
+					</article>
+				</div>
+			</section>
+			<!-- back to top link -->
+			<div class="bottom">
+				<button onclick="topFunction()" id="topBtn" title="Go to top">▲</button>
+				<!--<a href = "#top" class = "back-to-top">^<br>Top</a> -->
+			</div>
+		</main>
+		<!-- footer -->
+		<footer>
+			<div class="four-col">
+				<h3><a href="index.html">JapanTours.com</a></h3>
+				<p>
+					<a href="http://www.facebook.com"><img src="image/social-media/facebook.png" alt="Facebook icon"
+							class="social-media-icons"></a>
+					<a href="http://www.instagram.com"><img src="image/social-media/instagram.png" alt="Instagram icon"
+							class="social-media-icons"></a>
+					<a href="http://wwww.twitter.com"><img src="image/social-media/twitter.png" alt="Twitter icon"
+							class="social-media-icons"></a>
+					<a href="http://wwww.youtube.com"><img src="image/social-media/youtube.png" alt="Youtube icon"
+							class="social-media-icons"></a><br>
+					&copy; 2020 <a href="https://bcitwebdeveloper.ca/students/mina-bui/">Mina Bui</a>. <br>
+					For eduational purposes.<br>
+				</p>
+				<p>
+					<a href="credits.html">Credits</a>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Regions of Japan</h3>
+				<p>
+					<a href="destinations.html">Hokkaido</a> <br>
+					<a href="destinations.html">Tohoku</a> <br>
+					<a href="destinations.html">Kanto</a> <br>
+					<a href="destinations.html">Kansai</a> <br>
+					<a href="destinations.html">Chugoku</a> <br>
+					<a href="destinations.html">Shikoku</a> <br>
+					<a href="destinations.html">Kyushu</a> <br>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Before You Go</h3>
+				<p>
+					<a href="booking.html">Planning</a> <br>
+					<a href="booking.html">Transport</a> <br>
+					<a href="booking.html">Hotels</a> <br>
+					<a href="booking.html">Trip Ideas</a> <br>
+					<a href="booking.html">Tours</a> <br>
+					<a href="booking.html">Etiquette</a> <br>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Contact Us</h3>
+				<address>
+					<a href="https://www.google.com/maps">55 Street, Vancouver BC</a><br>
+					V5K 0A1<br>
+					+1 555-555-5555<br>
+					<a href="mailto:hello@japantours.com">hello@japantours.com</a>
+				</address>
+			</div>
+		</footer>
 	</div>
 	<script src="./scripts/menu.js"></script>
 </body>
+
 </html>

@@ -1,17 +1,27 @@
 <!doctype html>
-<html lang = "en">
-	<!-- 	author: mina bui
+<html lang="en">
+<!-- 	author: mina bui
 			date: 2020-10-06
 			title: project 1 - country website - booking
 	-->
+
 <head>
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM2Y9F5S02"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-LM2Y9F5S02');
+	</script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Your Official Guide to Japan | JapanTours.com</title>
 	<!-- google fonts -->
-	<link href = "https://fonts.googleapis.com/css?family=Raleway" rel = "stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- link to css -->
-	<link rel = "stylesheet" href = "style/style.css">
+	<link rel="stylesheet" href="style/style.css">
 	<!-- favicons -->
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="image/apple-touch-icon-114x114.png" />
@@ -26,22 +36,23 @@
 	<link rel="icon" type="image/png" href="image/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="image/favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/png" href="image/favicon-128.png" sizes="128x128" />
-	<meta name="application-name" content="&nbsp;"/>
+	<meta name="application-name" content="&nbsp;" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="image/mstile-144x144.png" />
 	<meta name="msapplication-square70x70logo" content="image/mstile-70x70.png" />
 	<meta name="msapplication-square150x150logo" content="image/mstile-150x150.png" />
 	<meta name="msapplication-wide310x150logo" content="image/mstile-310x150.png" />
 	<meta name="msapplication-square310x310logo" content="image/mstile-310x310.png" />
-	
+
 </head>
+
 <body>
-	<div class = "wrapper">	
+	<div class="wrapper">
 		<!-- header -->
-		<header class = "header" id ="myHeader">	
-			<div id = "top">
-				<h1 class = "main-heading"><a class = "header-link" href = "index.html" title = "Home">japantours.com</a></h1>
-				<div class = "btn-menu" title = "Menu">
+		<header class="header" id="myHeader">
+			<div id="top">
+				<h1 class="main-heading"><a class="header-link" href="index.html" title="Home">japantours.com</a></h1>
+				<div class="btn-menu" title="Menu">
 					<div class="container" onclick="mobileMenu(this)">
 						<div class="bar1"></div>
 						<div class="bar2"></div>
@@ -51,161 +62,196 @@
 			</div>
 			<nav>
 				<ul id="nav-ul">
-					<li class = "nav-li"><a class = "nav-a" href = "destinations.html" title = "Destinations">Destinations</a></li>
-					<li class = "nav-li"><a class = "nav-a" href = "things-to-do.html" title = "Things to Do">Things to Do</a></li>
-					<li class = "nav-li"><a class = "nav-a" href = "booking.html" title = "Booking">Booking</a></li>
+					<li class="nav-li"><a class="nav-a" href="destinations.html" title="Destinations">Destinations</a>
+					</li>
+					<li class="nav-li"><a class="nav-a" href="things-to-do.html" title="Things to Do">Things to Do</a>
+					</li>
+					<li class="nav-li"><a class="nav-a" href="booking.html" title="Booking">Booking</a></li>
 				</ul>
-			</nav>		
-		</header>	
-	<!-- main -->
-	<main>
-		<!-- banner -->
-		<div class = "banner">
-			<img 	src = "image/booking-banner.jpg" 
-					alt = "Tokyo temple. Found at https://pixabay.com/photos/japan-temple-wallpaper-kyoto-5337630/">
-			<h2 class = "center-align" id = "welcome">Booking.</h2>
-			<h3 class = "center-align" id = "welcome-bottom">Come explore Japan with us.</h3>
-		</div>	
-		<!-- written out site nav -->
-		<section>
-			<article class = "one-col">
-				<p>Home / Booking</p>
-			</article>
-		</section>
-		<!-- section 1 - popular tours -->
-		<section>
-				<h2 class = "center-align">Our Most Popular Tours</h2>
-				<div class = "row" id = "article-row">
-					<article class = "three-col">
-						<img src = "image/to-do-tower.jpg" alt = "Tokyo Tower at night. Found at https://commons.wikimedia.org/wiki/File:Tokyo_Tower_Afterglow_2.JPG">
+			</nav>
+		</header>
+		<!-- main -->
+		<main>
+			<!-- banner -->
+			<div class="banner">
+				<img src="image/booking-banner.jpg"
+					alt="Tokyo temple. Found at https://pixabay.com/photos/japan-temple-wallpaper-kyoto-5337630/">
+				<h2 class="center-align" id="welcome">Booking.</h2>
+				<h3 class="center-align" id="welcome-bottom">Come explore Japan with us.</h3>
+			</div>
+			<!-- written out site nav -->
+			<section>
+				<article class="one-col">
+					<p>Home / Booking</p>
+				</article>
+			</section>
+			<!-- section 1 - popular tours -->
+			<section>
+				<h2 class="center-align">Our Most Popular Tours</h2>
+				<div class="row" id="article-row">
+					<article class="three-col">
+						<img src="image/to-do-tower.jpg"
+							alt="Tokyo Tower at night. Found at https://commons.wikimedia.org/wiki/File:Tokyo_Tower_Afterglow_2.JPG">
 						<br><br>
 						<h3>Package 1 - Must See Sites</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut
+							faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut
+							finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor
+							purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
 					</article>
-					<article class = "three-col">
-						<img src = "image/destinations-shikoku.jpg" alt = "Shikoku coast. Found at https://www.pikist.com/free-photo-xhdzy">
+					<article class="three-col">
+						<img src="image/destinations-shikoku.jpg"
+							alt="Shikoku coast. Found at https://www.pikist.com/free-photo-xhdzy">
 						<br><br>
 						<h3>Package 2 - Countrywide Tour</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut
+							faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut
+							finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor
+							purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
 					</article>
-					<article class = "three-col">
-						<img src = "image/to-do-alley.jpg" alt = "Izakaya Alley, Japan. Found at https://p0.pikist.com/photos/702/25/traditional-japan-yakitori-food-japanese-culture.jpg">
+					<article class="three-col">
+						<img src="image/to-do-alley.jpg"
+							alt="Izakaya Alley, Japan. Found at https://p0.pikist.com/photos/702/25/traditional-japan-yakitori-food-japanese-culture.jpg">
 						<br><br>
 						<h3>Package 3 - Unique Views </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nulla urna, porta ut
+							faucibus ac, posuere vitae turpis. Maecenas vitae vulputate leo. Sed ut bibendum libero. Ut
+							finibus ut arcu tincidunt rhoncus. Nullam pharetra lacus nec mi vehicula, tempor tempor
+							purus faucibus. Vestibulum augue libero, aliquet et lobortis id, lobortis cursus nibh. </p>
 					</article>
 				</div>
-		</section>
-		<!-- section 2 - tour packages - table -->
-		<section>
-			<div class = "row">
-				<article class = "one-col">
-					<h2 class = "center-align">Japan Tour Packages</h2>
-					<table class = "booking-table">
-						<tr class = "booking-header">
-							<th>Package Name</th>
-							<th>Duration</th>
-							<th>Departing Dates</th>
-							<th>Prices</th>
-						</tr>
-						<tr class = "booking-packages">
-							<td>Must See Sites</td>
-							<td class = "booking-right-align">7 - 12 days</td>
-							<td>Spring 2020/21/22</td>
-							<td class = "booking-right-align">From CAD $3,000</td>
-						</tr>
-						<tr class = "booking-packages">
-							<td>Countrywide Tour</td>
-							<td class = "booking-right-align">13 - 21 days</td>
-							<td>Summer/Fall 2020/21/22</td>
-							<td class = "booking-right-align">From CAD $5,000</td>
-						</tr>
-						<tr class = "booking-packages">
-							<td>Unique Views</td>
-							<td class = "booking-right-align">12 - 18 days</td>
-							<td>Winter/Spring 2020/21/22</td>
-							<td class = "booking-right-align">From CAD $6,000</td>
-						</tr>
-						<tr class = "booking-packages">
-							<td>Scenic Sights</td>
-							<td class = "booking-right-align">10 - 12 days</td>
-							<td>Spring/Summer 2020/21/22</td>
-							<td class = "booking-right-align">From CAD $4,000</td>
-						</tr>
-						<tr class = "booking-packages">
-							<td>Luxe Sights</td>
-							<td class = "booking-right-align">10 - 14 days</td>
-							<td>Summer 2020/21/22</td>
-							<td class = "booking-right-align">From CAD $6,500</td>
-						</tr>
-					</table>
-				</article>
-				<article class = "one-col">
-					<p>
-						Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a, dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
-					</p>
-					<p>
-						Mauris eget pellentesque ex. Proin sodales sit amet velit et condimentum. Pellentesque nec odio consequat, cursus tellus vel, efficitur magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent ultricies pharetra ante, nec dictum tellus varius sed. Fusce quis ultrices magna. Pellentesque faucibus mauris id risus imperdiet scelerisque. Integer rhoncus tellus sit amet elit consequat fermentum. Pellentesque venenatis nisl nec neque cursus, in ullamcorper elit blandit. Ut sodales dui ut finibus semper. Fusce quis risus tortor. Etiam faucibus, ante eu elementum mattis, orci urna luctus nunc, et aliquet dui dolor quis dolor. Fusce convallis sem neque, volutpat laoreet purus interdum vel. Aenean interdum velit in nisl suscipit lacinia. Pellentesque scelerisque, dolor sed semper faucibus, ex nisi fringilla leo, quis dapibus quam tortor at tellus. Suspendisse in felis eu ante aliquet pharetra.
-					</p>
-				</article>
+			</section>
+			<!-- section 2 - tour packages - table -->
+			<section>
+				<div class="row">
+					<article class="one-col">
+						<h2 class="center-align">Japan Tour Packages</h2>
+						<table class="booking-table">
+							<tr class="booking-header">
+								<th>Package Name</th>
+								<th>Duration</th>
+								<th>Departing Dates</th>
+								<th>Prices</th>
+							</tr>
+							<tr class="booking-packages">
+								<td>Must See Sites</td>
+								<td class="booking-right-align">7 - 12 days</td>
+								<td>Spring 2020/21/22</td>
+								<td class="booking-right-align">From CAD $3,000</td>
+							</tr>
+							<tr class="booking-packages">
+								<td>Countrywide Tour</td>
+								<td class="booking-right-align">13 - 21 days</td>
+								<td>Summer/Fall 2020/21/22</td>
+								<td class="booking-right-align">From CAD $5,000</td>
+							</tr>
+							<tr class="booking-packages">
+								<td>Unique Views</td>
+								<td class="booking-right-align">12 - 18 days</td>
+								<td>Winter/Spring 2020/21/22</td>
+								<td class="booking-right-align">From CAD $6,000</td>
+							</tr>
+							<tr class="booking-packages">
+								<td>Scenic Sights</td>
+								<td class="booking-right-align">10 - 12 days</td>
+								<td>Spring/Summer 2020/21/22</td>
+								<td class="booking-right-align">From CAD $4,000</td>
+							</tr>
+							<tr class="booking-packages">
+								<td>Luxe Sights</td>
+								<td class="booking-right-align">10 - 14 days</td>
+								<td>Summer 2020/21/22</td>
+								<td class="booking-right-align">From CAD $6,500</td>
+							</tr>
+						</table>
+					</article>
+					<article class="one-col">
+						<p>
+							Donec quis rutrum dolor, ac aliquam mi. Aliquam et ex vel nisi mollis dignissim. Morbi in
+							neque nunc. Phasellus non ultrices neque, id euismod nulla. Aenean pulvinar turpis eu nunc
+							fringilla mattis. Praesent ac augue eu purus egestas elementum. Donec tincidunt nunc est, eu
+							dapibus nisl iaculis vel. Vivamus ac viverra nisl, non mattis quam. Ut maximus ut arcu id
+							convallis. Nam venenatis ac mi sed tempor. Curabitur velit ligula, condimentum non congue a,
+							dignissim in ante. Sed suscipit elit elit, tempor ornare lacus aliquam nec. Etiam id ligula
+							eros. Nulla viverra sollicitudin nisl id sollicitudin. Nulla facilisi.
+						</p>
+						<p>
+							Mauris eget pellentesque ex. Proin sodales sit amet velit et condimentum. Pellentesque nec
+							odio consequat, cursus tellus vel, efficitur magna. Class aptent taciti sociosqu ad litora
+							torquent per conubia nostra, per inceptos himenaeos. Praesent ultricies pharetra ante, nec
+							dictum tellus varius sed. Fusce quis ultrices magna. Pellentesque faucibus mauris id risus
+							imperdiet scelerisque. Integer rhoncus tellus sit amet elit consequat fermentum.
+							Pellentesque venenatis nisl nec neque cursus, in ullamcorper elit blandit. Ut sodales dui ut
+							finibus semper. Fusce quis risus tortor. Etiam faucibus, ante eu elementum mattis, orci urna
+							luctus nunc, et aliquet dui dolor quis dolor. Fusce convallis sem neque, volutpat laoreet
+							purus interdum vel. Aenean interdum velit in nisl suscipit lacinia. Pellentesque
+							scelerisque, dolor sed semper faucibus, ex nisi fringilla leo, quis dapibus quam tortor at
+							tellus. Suspendisse in felis eu ante aliquet pharetra.
+						</p>
+					</article>
+				</div>
+			</section>
+			<!-- back to top link -->
+			<div class="bottom">
+				<button onclick="topFunction()" id="topBtn" title="Go to top">▲</button>
+				<!--<a href = "#top" class = "back-to-top">^<br>Top</a> -->
 			</div>
-		</section>
-		<!-- back to top link -->
-		<div class = "bottom">
-			<button onclick="topFunction()" id="topBtn" title="Go to top">▲</button>
-			<!--<a href = "#top" class = "back-to-top">^<br>Top</a> -->
-		</div>
-	</main>
-	<!-- footer -->
-	<footer>
-		<div class = "four-col">
-			<h3><a href="index.html">JapanTours.com</a></h3>
-			<p>
-				<a href= "http://www.facebook.com"><img src = "image/social-media/facebook.png" alt = "Facebook icon" class = "social-media-icons"></a>
-				<a href= "http://www.instagram.com"><img src = "image/social-media/instagram.png" alt = "Instagram icon" class = "social-media-icons"></a>
-				<a href= "http://wwww.twitter.com"><img src = "image/social-media/twitter.png" alt = "Twitter icon" class = "social-media-icons"></a>
-				<a href= "http://wwww.youtube.com"><img src = "image/social-media/youtube.png" alt = "Youtube icon" class = "social-media-icons"></a><br>
-				&copy; 2020 <a href="https://bcitwebdeveloper.ca/students/mina-bui/">Mina Bui</a>. <br>
-				For eduational purposes.<br>
-			</p>
-			<p>
-				<a href = "credits.html">Credits</a>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Regions of Japan</h3>
-			<p>
-				<a href="destinations.html">Hokkaido</a> <br>
-				<a href="destinations.html">Tohoku</a> <br>
-				<a href="destinations.html">Kanto</a> <br>
-				<a href="destinations.html">Kansai</a> <br>
-				<a href="destinations.html">Chugoku</a> <br>
-				<a href="destinations.html">Shikoku</a> <br>
-				<a href="destinations.html">Kyushu</a> <br>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Before You Go</h3>
-			<p>
-				<a href="booking.html">Planning</a> <br>
-				<a href="booking.html">Transport</a> <br>
-				<a href="booking.html">Hotels</a> <br>
-				<a href="booking.html">Trip Ideas</a> <br>
-				<a href="booking.html">Tours</a> <br>
-				<a href="booking.html">Etiquette</a> <br>
-			</p>
-		</div>
-		<div class = "four-col">
-			<h3>Contact Us</h3>
-			<address>
-				<a href="https://www.google.com/maps">55 Street, Vancouver BC</a><br>
-				V5K 0A1<br>
-				+1 555-555-5555<br>
-				<a href="mailto:hello@japantours.com">hello@japantours.com</a>
-			</address>
-		</div>
-	</footer>	
+		</main>
+		<!-- footer -->
+		<footer>
+			<div class="four-col">
+				<h3><a href="index.html">JapanTours.com</a></h3>
+				<p>
+					<a href="http://www.facebook.com"><img src="image/social-media/facebook.png" alt="Facebook icon"
+							class="social-media-icons"></a>
+					<a href="http://www.instagram.com"><img src="image/social-media/instagram.png" alt="Instagram icon"
+							class="social-media-icons"></a>
+					<a href="http://wwww.twitter.com"><img src="image/social-media/twitter.png" alt="Twitter icon"
+							class="social-media-icons"></a>
+					<a href="http://wwww.youtube.com"><img src="image/social-media/youtube.png" alt="Youtube icon"
+							class="social-media-icons"></a><br>
+					&copy; 2020 <a href="https://bcitwebdeveloper.ca/students/mina-bui/">Mina Bui</a>. <br>
+					For eduational purposes.<br>
+				</p>
+				<p>
+					<a href="credits.html">Credits</a>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Regions of Japan</h3>
+				<p>
+					<a href="destinations.html">Hokkaido</a> <br>
+					<a href="destinations.html">Tohoku</a> <br>
+					<a href="destinations.html">Kanto</a> <br>
+					<a href="destinations.html">Kansai</a> <br>
+					<a href="destinations.html">Chugoku</a> <br>
+					<a href="destinations.html">Shikoku</a> <br>
+					<a href="destinations.html">Kyushu</a> <br>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Before You Go</h3>
+				<p>
+					<a href="booking.html">Planning</a> <br>
+					<a href="booking.html">Transport</a> <br>
+					<a href="booking.html">Hotels</a> <br>
+					<a href="booking.html">Trip Ideas</a> <br>
+					<a href="booking.html">Tours</a> <br>
+					<a href="booking.html">Etiquette</a> <br>
+				</p>
+			</div>
+			<div class="four-col">
+				<h3>Contact Us</h3>
+				<address>
+					<a href="https://www.google.com/maps">55 Street, Vancouver BC</a><br>
+					V5K 0A1<br>
+					+1 555-555-5555<br>
+					<a href="mailto:hello@japantours.com">hello@japantours.com</a>
+				</address>
+			</div>
+		</footer>
 	</div>
 	<script src="./scripts/menu.js"></script>
 </body>
+
 </html>
