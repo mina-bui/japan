@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+/*      author: mina bui
+	    date: 2020-10-06
+	    title: project 1 - country website - css
+*/
+
+/*
+-----------------------
+    HTML selectors
+-----------------------
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    background-image: url("../image/site-background.jpg"); /* https://pixy.org/239567/ */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    /* dont show nav by default */
+    display: none;
+}
+header {
+    background-color: white;
+    color:black;
+    padding: 10px 20px 10px 10px;
+    border-bottom: 5px solid white;
+    z-index: 1;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 10px;
+    line-height: 25px;
+}
+footer {
+    border-top: solid 3px red;
+    background-color:#282828;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer p,
+footer address {
+    line-height: 2.25em;
+}
+/*
+-------------------------
+    .class selectors
+-------------------------
+*/
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.show header nav {
+    /* let javascript
+    enable/disable this rule which 
+    will toggle display of the nav
+    */
+    display: block;
+    width: 100%;
+}
+.header-link {
+    color: black;
+    text-decoration: none;
+}
+.btn-menu {
+    background-color: white;
+    color: black;    
+    border: none;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.nav-a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.90em;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;    
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+.nav-a:hover {
+    border-bottom: 3px solid red;
+    color: red;
+}
+.main-heading {
+    margin-bottom: 0px;
+    line-height: 60px;
+    margin-left: 30px;
+}
+.center-align {
+    text-align: center;
+}
+.banner {
+    position: relative;
+}
+div.bottom {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#topBtn { /* back-to-top button */
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+}
+#topBtn:hover { /* back-to-top button */
+    background-color: #555;
+}
+div.region {
+    text-align: center;
+}
+img.map {
+    align-items: center;
+}
+.three-col a {
+    text-decoration: none;
+    color: black;
+}
+.three-col a:hover {
+    color: skyblue;
+}
+
+section.three-col a,
+.four-col a {
+    text-decoration: none;
+    color: white;
+}
+.four-col a:hover {
+    color: skyblue;
+}
+.four-col h3 {
+    font-size: 15px;
+}
+.four-col p,
+.four-col address {
+    font-size: 13px;
+}
+.social-media-icons {
+    width: 30px;
+    height: auto;
+
+}
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+/* making three bar menu button for mobile */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+/* fade out second bar */
+.change .bar2 {
+    opacity: 0;
+}
+/* rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+table.booking-table {
+    width: auto;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.booking-header {
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    text-align: left;
+    background-color: darkred;
+    color: white;
+}
+.booking-header th {
+    padding: 10px 10px 10px 10px;
+    background-color: #d8abac;
+}
+.booking-packages td {
+    padding: 5px 10px 5px 10px;
+    background-color: #f6eaea;
+}
+td.booking-right-align {
+    text-align: right;
+}
+/*
+------------------------
+    #id selectors
+------------------------
+*/
+#top,
+#top footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+#nav-ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#welcome {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 1.6em;
+    text-shadow: 2px 2px #000000;
+}
+#welcome-bottom {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 180%);
+    font-size: 1em;
+    font-style: italic;
+    font-weight: lighter;
+    text-shadow: 2px 2px #000000;
+}
+/*
+--------------------------
+    @media selectors
+--------------------------
+*/
+
+/* shows the nav when viewport gets 750px or wider */
+@media (min-width: 1200px) {
+    footer {
+        padding: 30px 15em 30px 15em;
+    }
+}
+
+@media (min-width: 750px) {
+    nav {
+        display: block;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    article { 
+        margin: 20px;
+    }
+    .btn-menu {
+        display: none;
+    }
+    #nav-ul {
+        display: flex;
+    }
+    #article-row,
+    #article-row-2 {
+        display: flex;
+
+    }
+    #welcome {
+        font-size: 4em;
+    }
+    #welcome-bottom {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 350%);
+        font-size: 1.35em;
+        font-style: italic;
+        font-weight: lighter;
+    }
+}
+
+/* show footer as one column on mobile devices */
+@media only screen and (max-width: 750px) {
+    footer {
+       display: block;
+       text-align: center;
+    }
+    .four-col {
+        padding-top: 20px;
+    }
+}
+
